@@ -1,0 +1,175 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+	position: relative;
+  	min-height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 120px;
+}
+
+p, span, a{
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+ul li {
+	border-bottom: 1px dashed #ddd;
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+
+.list-inline li {
+	padding: 0 !important;
+	border:none;
+	margin: 0 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.justify {
+	text-align: justify;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.room {
+	padding: 24px 0 0 0;
+}
+
+
+.title h2 {
+	font-weight: 300;
+}
+
+.project h3 {
+	font-weight: 300;
+	margin: 6px 0;
+}
+
+.project .title {
+	margin: 24px 0;
+}
+
+.project .portfolio-list {
+	min-height: 130px;
+}
+
+.project .description ul li{
+	display: inline;
+	font-size: 14px;
+}
+
+
+.footer{
+	font-weight: 500;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 120px;
+}
+
+.post {
+	padding-bottom: 24px;
+}
+
+.post p {
+	padding: 6px 0;
+}
+
+.post h1,.post h2,.post h3,.post h4,.post h5,.post h6 {
+	margin: 0;
+	padding: 6px 0;
+}
+
+blockquote {
+	margin: 20px 0;
+	text-align: justify;
+	padding: 0 20px;
+}
+
+blockquote p {
+	font-size: 14px;
+	font-weight: normal;
+}
+blockquote {
+
+}
+pre {
+	white-space: pre-wrap;
+	border: none;
+	padding: 20px;
+	background-color: #fff;
+	font-size: 14px;
+	overflow: auto;
+	border-radius: 3px;
+}
+
+.error-page {
+	margin-top: 100px;
+}
+
+.success {
+	background-color: #5cb85c;
+	color: #fff;
+	padding: 2px 5px;
+}
+
+.post img {
+	
+	width: 100%;
+}
+
+.post img[align] {
+	width: auto;
+	padding: 20px;
+}
+
+.chat-start {
+	background: #000;
+	padding: 10px 12px 14px 12px;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 15px;
+	z-index: 1;
+	right: 20px;
+	cursor: pointer;
+}
+
+.chat-start i {
+	font-size: 30px;
+	color: #fff;
+}
+
+#chat-center-widget {
+	display: none;
+}
+
+@media only screen and (max-device-width : 480px) and (max-device-width : 900px) {
+	.text-right {
+		text-align: left !important;
+	}
+}
+
+
+
+
+
+
+
+
+
